@@ -8,8 +8,17 @@
 	border: 1px dashed gray;
 }
 
+#header, #content, #nav{
+	margin: 0px;
+}
+
 
 /*	Header	*/
 #header h1 a img{
 	height: 180px;
+	margin: 10px;
+}
+
+#nav ul li{
+	border: 1px solid red;
 }
