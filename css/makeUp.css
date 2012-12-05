@@ -1,0 +1,15 @@
+/*
+
+	Informania
+
+*/
+
+#container, #header, #content, #nav, #breadcrums, #leftColumn, #rightColumn, #footer{
+	border: 1px dashed gray;
+}
+
+
+/*	Header	*/
+#header h1 a img{
+	height: 180px;
+}
