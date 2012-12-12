@@ -45,5 +45,17 @@
 /*	News	*/
 
 .news{
-	background-color: #cccccc;
+	background-color: #a3a3a3;
+	clear: both;
+}
+
+.news span{
+	background-color: #eeeeee;
+	display: block;
+	height: 250px;
+	width: 200px;
+	float: left;
+}
+.clear{
+	clear: both;
 }
