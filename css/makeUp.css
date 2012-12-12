@@ -89,3 +89,11 @@
 	height: 150px;
 	margin: 0 0 10px 0;
 }
+    div#nitti {
+        height: 51px;
+    }
+        #nitti img {
+            width: 100%;
+        }
+
+
