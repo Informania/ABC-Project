@@ -8,18 +8,17 @@
 	border: 1px dashed gray;
 }
 
-
-
 /*	Header	*/
 
 #header{
-	background: url('../img/start_header.jpg');
+	background: url('../img/a_header.jpg');
 }
 
 #header h1 a img{
 	height: 180px;
 	margin: 20px;
 }
+/*	Navigation	*/
 
 #nav ul{
 	margin: 0;
@@ -40,6 +39,26 @@
 
 #nav ul li:last-of-type{
 	margin: 0 0 0 10px;
+}
+
+#nav ul li a{
+	font-family: Helvetica, Arial, sans-serif;
+	display: block;
+	height: 30px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	padding: 7px 0 0 0;
+}
+
+#nav ul li a:link, #nav ul li a:visited{
+	background-color: #CCC;
+}
+
+#nav ul li a:hover, #nav ul li a:active{
+	background-color: #AAA;
 }
 
 /*	News	*/
@@ -65,8 +84,7 @@
 	float:right;
 }
 #rightColumn div{
-	background-color: yellow;
-	border: 1px solid red;
+	background-color: #E6E6E6;
 	width: 200px;
 	height: 150px;
 	margin: 0 0 10px 0;
