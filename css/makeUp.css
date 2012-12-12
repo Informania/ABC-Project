@@ -57,6 +57,11 @@
 	background-color: #AAA;
 }
 
+/*  Breadcrumbs     */
+div#breadcrumbs {
+    margin: 10px 0;
+    padding-left: 10px;
+}
 /*	News	*/
 #leftColumn h2{
 	display: none;
