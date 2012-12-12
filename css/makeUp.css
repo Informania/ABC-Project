@@ -12,7 +12,6 @@
 
 #header h1 a img{
 	height: 180px;
-	margin: 20px;
 }
 /*	Navigation	*/
 
@@ -90,9 +89,6 @@ div#breadcrumbs {
 	float:right;
 }
 #rightColumn div{
-/*	background-color: #E6E6E6; */
-	width: 200px;
-	height: 150px;
 	margin: 0 0 10px 0;
 }
     div#nitti {
@@ -115,6 +111,17 @@ div#breadcrumbs {
         text-align: center;
         font-size: 22px;
     }
+
+   #rightColumn #cal .calEntry{
+   	background-color: #333;
+   	height: 30px;
+   }
+
+/*	sponsors	*/
+#sponsors {
+	background-color: #333;
+	height: 200px;
+}
 
 
 /*  Footer      */
