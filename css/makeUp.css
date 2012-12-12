@@ -46,16 +46,28 @@
 
 .news{
 	background-color: #a3a3a3;
-	clear: both;
 }
 
 .news span{
 	background-color: #eeeeee;
 	display: block;
-	height: 250px;
+	height: 100px;
 	width: 200px;
 	float: left;
 }
+
 .clear{
 	clear: both;
+}
+
+/*	right column	*/
+#rightColumn{
+	float:right;
+}
+#rightColumn div{
+	background-color: yellow;
+	border: 1px solid red;
+	width: 200px;
+	height: 150px;
+	margin: 0 0 10px 0;
 }
