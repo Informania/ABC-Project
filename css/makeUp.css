@@ -123,6 +123,9 @@ div#breadcrumbs {
 	height: 200px;
 }
 
+#sponsors ul li{
+	display: inline-block;
+}
 
 /*  Footer      */
 div#footer {
