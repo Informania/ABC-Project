@@ -107,14 +107,15 @@ figure {
 }
 
 /*  news  */
-.news a:link, .news a:visited{
+.news a:link, .news a:active{
   background-color: #333;
   font-style: italic;
   text-decoration: none;
   color: white;
 }
 
-.news a:hover, .news a:active{
-  color: white;
+.news a:link, .news a:active{
+
+
 }
 
