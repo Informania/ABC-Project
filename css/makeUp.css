@@ -114,12 +114,14 @@ div#breadcrumbs {
 
    #rightColumn #cal .calEntry{
    	background-color: #333;
+   	background-color: #CCC;
    	height: 30px;
    }
 
 /*	sponsors	*/
 #sponsors {
 	background-color: #333;
+	background-color: #CCC;
 	height: 200px;
 }
 
