@@ -5,14 +5,10 @@
 */
 
 #container, #header, #content, #nav, #breadcrums, #leftColumn, #rightColumn, #footer{
-	border: 1px dashed gray;
+	/*border: 1px dashed gray;*/
 }
 
 /*	Header	*/
-
-#header{
-	background: url('../img/a_header.jpg');
-}
 
 #header h1 a img{
 	height: 180px;
@@ -62,17 +58,22 @@
 }
 
 /*	News	*/
+#leftColumn h2{
+	display: none;
+}
 
 .news{
 	background-color: #a3a3a3;
+	height: 300px;
+	margin: 0 0 40px 0;
 }
 
-.news span{
-	background-color: #eeeeee;
+.news img{
 	display: block;
-	height: 100px;
-	width: 200px;
+	height: 100%;
+	width: 214px;
 	float: left;
+	margin: 0 20px 0 0;
 }
 
 .clear{
