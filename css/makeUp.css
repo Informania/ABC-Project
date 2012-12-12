@@ -61,10 +61,31 @@ div#breadcrumbs {
     margin: 15px 0 25px 0;
     padding-left: 10px;
 }
+
+/*	Left Column 	*/
+#banner{
+	height: 30px;
+	padding: 20px;
+
+	margin: 0 0 20px 0;
+
+	background-color: #ccc;
+	text-align: center;
+
+	color: white;
+}
+
+#banner h3{
+	padding: 0;
+	margin: 0;
+
+	line-height: 1.2em;
+}
 /*	News	*/
 #leftColumn h2{
 /*	display: none; */
 }
+
 
 .news{
 	background-color: #a3a3a3;
@@ -121,6 +142,9 @@ div.land div p {
 #rightColumn div{
 	margin: 0 0 10px 0;
 }
+	#rightColumn div p{
+		font-size: 0.8em;
+	}
     div#nitti {
     }
         #nitti img {
